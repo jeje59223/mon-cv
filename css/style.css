@@ -45,6 +45,53 @@ ul, ol
     list-style: none;
 }
 
+/* MENU */
+.navbar
+{
+    background: #66CDAA;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+
+.navbar .navbar-nav
+{   
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+.navbar li a
+{
+    color: #fff !important;
+}
+.navbar-nav a:hover, .navbar-nav li.active a:hover
+{
+    color: #66CDAA !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle
+{
+    border-style: none;    
+}
+.navbar-item
+{
+    background-color: #fff !important;
+}
+.navbar-brand
+{
+    color: #fff;
+}
+.fa-bars
+{
+    color: #fff;
+    border: none;
+}
 
 
 /* ABOUT */
